@@ -1,0 +1,24 @@
+
+.bar {
+  fill: #d62728;
+}
+
+.bar:hover {
+  fill: white;
+}
+
+.axis--x path {
+  display: none;
+}
+body {
+    background-color: darkgrey;
+}
+.grid line {
+  stroke: lightgrey;
+  stroke-opacity: 0.7;
+  shape-rendering: crispEdges;
+}
+
+.grid path {
+  stroke-width: 0;
+}
